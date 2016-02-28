@@ -9,6 +9,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
   </head>
   <body class="template">
+    <br><br><br>
     <p class="header"><span>Unity WebGL Player | </span>Thermostat</p>
     <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
@@ -23,9 +24,9 @@
     TOTAL_MEMORY: 268435456,
     errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
     compatibilitycheck: null,
-    dataUrl: "Release/hostThermo.data",
-    codeUrl: "Release/hostThermo.js",
-    memUrl: "Release/hostThermo.mem",
+    dataUrl: "Release/thermostatwebgl.data",
+    codeUrl: "Release/thermostatwebgl.js",
+    memUrl: "Release/thermostatwebgl.mem",
   };
 </script>
 <script src="Release/UnityLoader.js"></script>
